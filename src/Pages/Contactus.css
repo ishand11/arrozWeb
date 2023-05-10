@@ -1,0 +1,18 @@
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.form{
+display: flex;
+flex-direction: column;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.border{
+    background-color: blue;
+}
