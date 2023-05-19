@@ -61,7 +61,7 @@ export const Section = styled.section`
   height: ${({ height }) => (height ? height : "auto")};
   max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : "auto")};
   min-height: ${({ minHeight }) => (minHeight ? minHeight : "auto")};
-
+  background-color: #3f47cc;
   @media screen and (max-width: 768px) {
     padding: ${({ smPadding }) => (smPadding ? smPadding : "70px 0")};
   }

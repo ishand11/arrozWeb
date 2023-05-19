@@ -99,7 +99,7 @@ export const Subtitle = styled(motion.p)`
 `;
 
 export const ContentButton = styled(motion.button)`
-  height: 3rem;
+  height: 5rem;
   padding: 16px 32px;
   font-weight: 700;
   font-size: 0.8rem;
@@ -108,6 +108,7 @@ export const ContentButton = styled(motion.button)`
   text-transform: uppercase;
   cursor: pointer;
   background: none;
+
   color: ${({ inverse }) => (inverse ? "#0c4577" : "white")};
 
   border-radius: 4px;

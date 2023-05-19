@@ -6,10 +6,7 @@ const AboutUS = () => {
     <div>
       <section id="about-us">
         <div className="main-img">
-          <img
-            src="https://aitoss.club/static/media/clubmember.ab6420ea.svg"
-            alt=""
-          />
+          <img src="./assets/aboutUs.png" alt="" />
         </div>
 
         <div className="text">

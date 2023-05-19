@@ -22,7 +22,7 @@ function Footer() {
         <FooterGrid justify="space-between">
           <FooterColumn id="footerLogo">
             <FooterLogo to="/">
-              <SocialIcon src="./assets/logo.png" />
+              <SocialIcon src="./assets/Arroz-logo.png" />
               Arroz Solutions
             </FooterLogo>
             <FooterAddress>Jabalpur, Madhya Pradesh</FooterAddress>

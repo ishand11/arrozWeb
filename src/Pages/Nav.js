@@ -20,7 +20,7 @@ function Nav() {
       <div className="navbar">
         <div className="nav-container">
           <HashLink smooth to="/" className="nav-logo">
-            <img className="logoimg" src="./assets/logo.png" alt="logo" />
+            <img className="logoimg" src="./assets/Arroz-logo.png" alt="logo" />
             Arroz Solutions
           </HashLink>
 
@@ -50,7 +50,7 @@ function Nav() {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="#about-us"
+                to="/#about-us"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -61,12 +61,12 @@ function Nav() {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/carrer"
+                to="/career"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Carrer
+                Career
               </HashLink>
             </li>
             <li className="nav-item">
