@@ -112,15 +112,17 @@ router.post("/changeEmployeeStatus", async (req, res) => {
 
 router.post("/addJobs", async (req, res) => {
   try {
-    const jobexist = await Job.findOne({ jobTitle: req.body.jobTitle });
+    console.log(req.body);
+    const jobexist = await Job.findOne({ jobTitle: req.body.data.jobTitle });
     if (jobexist) {
       return res
         .status(200)
         .send({ message: "Job already exists", success: false });
     }
 
-    const newjob = new Job(req.body);
+    const newjob = new Job(req.body.data);
     await newjob.save();
+    console.log(newjob);
     res
       .status(200)
       .send({ message: "Job created successfully", success: true });
